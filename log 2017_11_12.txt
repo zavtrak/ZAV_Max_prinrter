@@ -1,0 +1,599 @@
+led: Nov 11 2017
+echo: Free Memory: 3412  PlannerBufferBytes: 1168
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z800.00 E286.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X250.00 Y250.00 Z20.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X2100 Y2100 Z15 E8000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P3000.00 R3000.00 T3000.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+echo:Home offset (mm)
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H180 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P22.60 I2.37 D51.66
+echo:  M304 P358.09 I70.05 D457.64
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+Setting bed temperature to 95.000000 degrees Celsius.
+Setting hotend temperature to 240.000000 degrees Celsius.
+echo:SD init fail
+Error:Heating failed, system stopped! Heater_ID: 0
+[ERROR] Error:Heating failed, system stopped! Heater_ID: 0
+
+Error:Printer halted. kill() called!
+[ERROR] Error:Printer halted. kill() called!
+
+>>> M204 P3000.00 R3000.00 T1000.00
+SENDING:M204 P3000.00 R3000.00 T1000.00
+Print started at: 23:00:49
+Disconnected.
+Print ended at: 23:00:59 and took 0:00:10
+Connecting...
+start
+Printer is now online.
+echo:Marlin 1.1.0-RC8
+echo: Last Updated: 2016-12-06 12:00 | Author: (none, default config)
+Compiled: Nov 11 2017
+echo: Free Memory: 3412  PlannerBufferBytes: 1168
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z800.00 E286.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X250.00 Y250.00 Z20.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X2100 Y2100 Z15 E8000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P3000.00 R3000.00 T3000.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+echo:Home offset (mm)
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H180 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P22.60 I2.37 D51.66
+echo:  M304 P358.09 I70.05 D457.64
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+>>> M204 P3000.00 R3000.00 T1000.00
+SENDING:M204 P3000.00 R3000.00 T1000.00
+echo:SD init fail
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 1000.00
+>>> m510
+SENDING:M510
+Setting hotend temperature to 240.000000 degrees Celsius.
+Setting bed temperature to 95.000000 degrees Celsius.
+SENDING:G0 X100.0 Y100.0 F8000
+echo:busy: processing
+echo:busy: processing
+Print started at: 23:03:53
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> M204 P3000.00 R3000.00 T500.00
+SENDING:M204 P3000.00 R3000.00 T500.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 500.00
+Disconnected.
+Connecting...
+>>> M204 P3000.00 R3000.00 T500.00
+[ERROR] Printer is not online.
+start
+Printer is now online.
+echo:Marlin 1.1.0-RC8
+echo: Last Updated: 2016-12-06 12:00 | Author: (none, default config)
+Compiled: Nov 11 2017
+echo: Free Memory: 3412  PlannerBufferBytes: 1168
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z800.00 E286.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X250.00 Y250.00 Z20.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X2100 Y2100 Z15 E8000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P3000.00 R3000.00 T3000.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+echo:Home offset (mm)
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H180 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P22.60 I2.37 D51.66
+echo:  M304 P358.09 I70.05 D457.64
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+echo:SD init fail
+echo:busy: processing
+echo:busy: processing
+>>> M204 P3000.00 R3000.00 T500.00
+SENDING:M204 P3000.00 R3000.00 T500.00
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 500.00
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> M204 P3000.00 R3000.00 T100.00
+SENDING:M204 P3000.00 R3000.00 T100.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 100.00
+echo:busy: processing
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+Setting hotend temperature to 240.000000 degrees Celsius.
+Setting bed temperature to 95.000000 degrees Celsius.
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> M204 P3000.00 R3000.00 T100.00
+SENDING:M204 P3000.00 R3000.00 T100.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 100.00
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+>>>  M203 X250.00 Y250.00 Z15.00 E100.00
+SENDING:M203 X250.00 Y250.00 Z15.00 E100.00
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> M204 P3000.00 R3000.00 T50.00
+SENDING:M204 P3000.00 R3000.00 T50.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 50.00
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> M204 P1000.00 R3000.00 T50.00
+SENDING:M204 P1000.00 R3000.00 T50.00
+Setting Print Acceleration: 1000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 50.00
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> g3 z100
+SENDING:G3 Z100
+Error:G2/G3 bad parameters
+[ERROR] Error:G2/G3 bad parameters
+
+>>> g2 z100
+SENDING:G2 Z100
+Error:G2/G3 bad parameters
+[ERROR] Error:G2/G3 bad parameters
+
+>>> g1 z100
+SENDING:G1 Z100
+>>> g1 z10
+SENDING:G1 Z10
+SENDING:M84
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+>>> M201 X2100 Y2100 Z10 E8000
+SENDING:M201 X2100 Y2100 Z10 E8000
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+Disconnected.
+Connecting...
+start
+Printer is now online.
+echo:Marlin 1.1.0-RC8
+echo: Last Updated: 2016-12-06 12:00 | Author: (none, default config)
+Compiled: Nov 11 2017
+echo: Free Memory: 3412  PlannerBufferBytes: 1168
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z800.00 E286.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X250.00 Y250.00 Z10.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X2100 Y2100 Z7 E8000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P3000.00 R3000.00 T10.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+echo:Home offset (mm)
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H180 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P22.60 I2.37 D51.66
+echo:  M304 P358.09 I70.05 D457.64
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+Setting hotend temperature to 240.000000 degrees Celsius.
+Setting bed temperature to 95.000000 degrees Celsius.
+echo:SD init fail
+echo:busy: processing
+echo:busy: processing
+SENDING:G0 X100.0 Y100.0 F8000
+>>> g1 z10
+SENDING:G1 Z10
+>>> M204 P3000.00 R3000.00 T1000.00
+SENDING:M204 P3000.00 R3000.00 T1000.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 1000.00
+echo:busy: processing
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> M204 P3000.00 R3000.00 T3000.00
+SENDING:M204 P3000.00 R3000.00 T3000.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 3000.00
+>>> g1 z10
+SENDING:G1 Z10
+echo:busy: processing
+SENDING:G0 X100.0 Y100.0 F8000
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> g1 z10
+SENDING:G1 Z10
+Print started at: 23:34:08
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+Error:Thermal Runaway, system stopped! Heater_ID: 0
+[ERROR] Error:Thermal Runaway, system stopped! Heater_ID: 0
+
+Error:Printer halted. kill() called!
+[ERROR] Error:Printer halted. kill() called!
+
+Traceback (most recent call last):
+  File "printrun\gviz.pyc", line 88, in <lambda>
+  File "printrun\gviz.pyc", line 208, in inject
+AttributeError: 'dict' object has no attribute 'index'
+Disconnected.
+Connecting...
+start
+Printer is now online.
+echo:Marlin 1.1.0-RC8
+echo: Last Updated: 2016-12-06 12:00 | Author: (none, default config)
+Compiled: Nov 11 2017
+echo: Free Memory: 3412  PlannerBufferBytes: 1168
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z800.00 E286.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X250.00 Y250.00 Z10.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X2100 Y2100 Z7 E8000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P3000.00 R3000.00 T10.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+echo:Home offset (mm)
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H180 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P22.60 I2.37 D51.66
+echo:  M304 P358.09 I70.05 D457.64
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+echo:SD init fail
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>>  M204 P3000.00 R3000.00 T1000.00
+SENDING:M204 P3000.00 R3000.00 T1000.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 1000.00
+SENDING:G0 X100.0 Y100.0 F8000
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>>  g1 x100 y100
+SENDING:G1 X100 Y100
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>>  M204 P3000.00 R3000.00 T3000.00
+SENDING:M204 P3000.00 R3000.00 T3000.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 3000.00
+>>>  g1 x100 y100
+SENDING:G1 X100 Y100
+>>>  g1 z200
+SENDING:G1 Z200
+SENDING:M84
+Disconnected.
+Connecting...
+start
+Printer is now online.
+echo:Marlin 1.1.0-RC8
+echo: Last Updated: 2016-12-06 12:00 | Author: (none, default config)
+Compiled: Nov 11 2017
+echo: Free Memory: 3412  PlannerBufferBytes: 1168
+echo:Hardcoded Default Settings Loaded
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z800.00 E286.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X250.00 Y250.00 Z10.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X2100 Y2100 Z7 E8000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P3000.00 R3000.00 T10.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+echo:Home offset (mm)
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H180 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P22.60 I2.37 D51.66
+echo:  M304 P358.09 I70.05 D457.64
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+Setting hotend temperature to 240.000000 degrees Celsius.
+Setting bed temperature to 95.000000 degrees Celsius.
+echo:SD init fail
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>>  M205 S0.00 T0.00 B20000 X100.00 Y10.00 Z0.40 E5.00
+SENDING:M205 S0.00 T0.00 B20000 X100.00 Y10.00 Z0.40 E5.00
+SENDING:M84
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>>  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+SENDING:M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
+Print started at: 00:21:26
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+Setting bed temperature to 90.000000 degrees Celsius.
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>>   M204 P3000.00 R3000.00 T1000.00
+SENDING:M204 P3000.00 R3000.00 T1000.00
+Setting Print Acceleration: 3000.00
+Setting Retract Acceleration: 3000.00
+Setting Travel Acceleration: 1000.00
+Setting print speed factor to 50%.
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+Setting print speed factor to 75%.
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+Setting print speed factor to 120%.
+Setting hotend temperature to 220.000000 degrees Celsius.
+>>> M92 X80.00 Y80.00 Z800.00 E320.00
+SENDING:M92 X80.00 Y80.00 Z800.00 E320.00
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+>>> M92 X80.00 Y80.00 Z800.00 E143.00
+SENDING:M92 X80.00 Y80.00 Z800.00 E143.00
+Setting print speed factor to 100%.
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+Print ended at: 02:02:05 and took 1:40:39
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+[ERROR] Can't read from printer (disconnected?) (SerialException): call to ClearCommError failed
+Exception in thread Thread-126:
+Traceback (most recent call last):
+  File "threading.pyc", line 808, in __bootstrap_inner
+  File "threading.pyc", line 761, in run
+  File "printrun\printcore.pyc", line 357, in _sender
+  File "printrun\printcore.pyc", line 623, in _send
+  File "encodings\utf_8.pyc", line 16, in decode
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd3 in position 29: invalid continuation byte
+
